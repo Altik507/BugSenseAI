@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at top left, #1b0f0a, #0a0603);
+  color: #f5d2b2;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 25px;
+  height: 25px;
+  filter: brightness(1.4);
+}
+
+.logo-text {
+  color: #ff6f00;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.title {
+  background-color: #332017;
+  color: #fcdcb7;
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-size: 2rem;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  background-color: #2a140a;
+  border-radius: 12px;
+  padding: 25px 35px;
+  width: 260px;
+  text-align: left;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  color: #f5c29f;
+  margin-bottom: 15px;
+}
+
+.card ul {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.card li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: #e2bfa3;
+}
+
+.price {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff6e4;
+}
